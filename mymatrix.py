@@ -148,3 +148,5 @@ class MyMatrix:
 
 if __name__  == "__main__":
 	# some test examples
+	A1 = MyMatrix([[1,2,3],[3,4,5]])
+	B1 = MyMatrix([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
