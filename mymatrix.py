@@ -145,3 +145,6 @@ class MyMatrix:
               matrix_normF += abs(self.A[i][j])**2
 
       return math.sqrt(matrix_normF)
+
+if __name__  == "__main__":
+	# some test examples
