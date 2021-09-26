@@ -84,6 +84,21 @@ class MyMatrix:
 
     return MyMatrix(sums)
 
+    def tri_lower(self):
+        """
+        Returns the lower triangular portion of the matrix. All other values are
+        zeroed out.
+        """
+        au = self
+        k = self.transpose(au)
+        k2 = len(k)
+        r = 1
+        for p in range(0, len(self)):
+            for q in range(r, k2):
+                au[p][q] = 0
+            r += 1
+        return au
+
   def norm1(self):
       """
       A is MyMatrix object which is a list in the form [[],[],[]]
