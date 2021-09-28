@@ -1,6 +1,9 @@
 import math
 
 class MyMatrix:
+    """
+    This is matrix class for basic operations.
+    """
 
     def __init__(self, A):
         """
